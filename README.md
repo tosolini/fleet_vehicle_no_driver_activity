@@ -2,7 +2,7 @@
 
 ## Overview
 
-This module removes the automatic "Specify the end date" TODO activity that is created when a vehicle driver changes.
+This module is intended for use as App in Odoo ERP. Removes the automatic "Specify the end date" TODO activity that is created when a vehicle driver changes.
 
 ## Why
 
