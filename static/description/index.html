@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fleet Vehicle - No Driver Activity</title>
+  <style>
+    body { font-family: Arial, sans-serif; color: #333; margin: 24px; line-height: 1.5; }
+    h1 { color: #444; }
+    h2 { color: #555; margin-top: 1.2em; }
+    ul { margin-top: 0.4em; }
+    .badge { display: inline-block; padding: 4px 8px; background: #ececec; border-radius: 4px; margin-right: 6px; font-size: 12px; }
+    .section { margin-bottom: 16px; }
+  </style>
+</head>
+<body>
+  <h1>Fleet Vehicle - No Driver Activity</h1>
+  <div class="section">
+    <p>Remove the automatic "Specify the end date" TODO activity created when a vehicle driver changes.</p>
+  </div>
+
+  <div class="section">
+    <h2>Why</h2>
+    <p>The companion module <strong>fleet_vehicle_history_date_end</strong> already closes the previous driver history automatically. The default TODO is redundant and adds noise.</p>
+  </div>
+
+  <div class="section">
+    <h2>Features</h2>
+    <ul>
+      <li>Prevents the default TODO activity when a new driver is assigned</li>
+      <li>Keeps all other fleet behaviors unchanged</li>
+      <li>Compatible with <code>fleet_vehicle_history_date_end</code></li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Installation</h2>
+    <ol>
+      <li>Dependencies: <strong>fleet</strong>, <strong>fleet_vehicle_history_date_end</strong></li>
+      <li>Update the Apps list and install the module</li>
+    </ol>
+  </div>
+
+  <div class="section">
+    <h2>License</h2>
+    <p>LGPL-3</p>
+  </div>
+</body>
+</html>
