@@ -2,20 +2,37 @@
 
 ## Supported Versions
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+This repository follows Odoo 18 and currently supports only the `18.0` branch.
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+| Version | Supported |
+| ------- | --------- |
+| 18.0.x  | Yes       |
+| < 18.0  | No        |
 
 ## Reporting a Vulnerability
 
-Use this section to tell people how to report a vulnerability.
+Please do not open public issues for security vulnerabilities.
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+Use one of these channels:
+
+1. Preferred: GitHub Private Vulnerability Reporting (Security Advisory draft)
+	- https://github.com/tosolini/fleet_vehicle_no_driver_activity/security/advisories/new
+2. Alternative: open a private communication channel with the maintainer.
+
+When reporting, include:
+
+- Affected module/version and deployment context
+- Clear reproduction steps
+- Impact assessment (confidentiality, integrity, availability)
+- Possible fix or mitigation (if available)
+
+## Disclosure Process
+
+- Initial triage response target: within 3 business days
+- Status updates target: every 7 business days until resolution
+- Fixes are released in the supported branch and documented in changelog/release notes
+- Public disclosure happens after a fix is available or a coordinated disclosure date is agreed
+
+## Scope
+
+Security issues in custom Odoo addon code, access control, data exposure, or privilege escalation are in scope. Generic support requests and functional bugs without security impact are out of scope for this policy.

@@ -1,0 +1,2 @@
+# Kept intentionally minimal to enable Dependabot pip monitoring.
+# Add module-specific Python dependencies here when introduced.
