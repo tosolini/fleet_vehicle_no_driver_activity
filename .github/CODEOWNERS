@@ -1,1 +1,6 @@
+# Global fallback owner
 * @tosolini
+
+# Explicit ownership for GitHub automation and security policy files
+.github/* @tosolini
+SECURITY.md @tosolini
